@@ -40,7 +40,7 @@
   <title>AdMob Ads Demo</title>
 </head>
 
-<body onload="app.startBannerAds(true)">
+<body>
 
   <div id="canvas">
 
@@ -56,6 +56,22 @@
       </div>
     </div>
 
+    <p>
+      <a class="button" onclick="app.startBannerAds()">Start Banner Ads</a>
+      <a class="button" onclick="app.removeBannerAds()">Remove Banner Ads</a>
+    </p>
+    <p>
+      <a class="button" onclick="app.showBannerAds()">Show Banner Ads</a>
+      <a class="button" onclick="app.hideBannerAds()">Hide Banner Ads</a>
+    </p>
+    <p>
+      <a class="button" onclick="app.requestInterstitial(true)">Request and show Interstitial</a>
+    </p>
+    <p>
+      <a class="button" onclick="app.requestInterstitial(false)">Request Interstitial</a>
+      <a class="button" onclick="app.showInterstitial()">Show Interstitial</a>
+    </p>
+    
   </div>
 
   <script type="text/javascript" src="cordova.js"></script>
