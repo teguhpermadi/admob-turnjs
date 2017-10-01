@@ -10,8 +10,8 @@
   <preference name="LogLevel" value="VERBOSE"/>
   <preference name="debuggable" value="true"/>
   
-  <gap:plugin name="phonegap-admob" source="npm" />
-  
+  <!--gap:plugin name="phonegap-admob" source="npm" /-->
+  <plugin name="phonegap-admob" spec="4.1.15" />
   <!--icon src="res/icons/appFeel-512.png" /-->
 
   <!-- iOS 7.0+ -->
